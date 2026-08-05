@@ -23,6 +23,10 @@ elif average >= 50 and average <= 59:
     print("your grade is D")
 else:
     print("your grade is F")
+
+print("your name is: ", k)
+print("your average marks is: ", average)
+
 if average >= 50:
     print("you have passed")
 else:
