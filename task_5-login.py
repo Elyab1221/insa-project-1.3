@@ -73,11 +73,11 @@ while attempt<=5:
         if attempt==1:
             print("after yor 5th fail your account will be locked")
             print("wait for 5 seconds")
-            # time.sleep(5)  
+            time.sleep(5)  
         elif attempt==2:
             print("after yor 5th fail your account will be locked")
             print("wait for 10 seconds")
-            # time.sleep(10)
+            time.sleep(10)
         elif attempt==3:
             print("after yor 5th fail your account will be locked")
             print("wait for 20 seconds")
@@ -85,7 +85,7 @@ while attempt<=5:
         elif attempt==4:
             print("after yor 5th fail your account will be locked")
             print("wait for 40 seconds")
-            # time.sleep(40)
+            time.sleep(40)
         else:
             print("your account is locked")
             break
